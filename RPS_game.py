@@ -19,6 +19,8 @@ while(i<5):
         print("I gussed",r)
     else:
         print("Enter proper input as rock,paper,scissor")
+        score-=20
+        out_off-=20
     pass
     i+=1
 print("\nyour score:",score,"out of",out_off)
